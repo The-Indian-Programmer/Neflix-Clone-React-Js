@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Ubuntu:wght@700&display=swap');
+.banner{
+    width: 100vw;
+    height: 480px;
+    margin-bottom: 40px;
+    position: relative;
+    object-fit: contain;
+}
+
+.banner_content{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    width: 400px;
+}
+.banner_title{
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.banner_overview{
+    font-size: 20px;
+    font-family: 'Satisfy', cursive;
+}
+.banner_btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.btn_watch{
+    padding: 10px 20px;
+    background-color: rgba(160, 160, 160, 0.137);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 3px;
+    
+}
+.btn_addmylist{
+    padding: 10px 20px;
+    background-color: rgba(160, 160, 160, 0.137);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.btn_watch:hover{
+    background-color: white;
+    color: black;
+}
+.btn_addmylist:hover{
+    background-color: white;
+    color: black;
+}
